@@ -1,161 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Vente des produits Agricole</title>
-  <link rel="stylesheet" href="styles/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vente des Produits Agricoles</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-	<header>
-		<nav>
-			<div class="logo"><span>Agro<span>Alimentaire</div>
-			<ul>
-				<li><a href="Index.html">Accueil</a></li>
-				<li><a href="A propos.html">A propos</a></li>
-				<li><a href="Produit.html" class="Produit">Produit</a></li>
-				<li><a href="Vente.html">Vente</a></li>
-				<li><a href="Contact.html">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-  <div class="product">
-    <h3>Pommes de terre</h3>
-    <p>Prix : 5$</p>
-    <button class="btn add-to-cart" data-name="Pommes de terre" data-price="5">Ajouter au panier</button>
-</div>
 
-<div id="cart">
-    <h3>🛒 Panier</h3>
-    <ul id="cart-items"></ul>
-    <p>Total : <span id="total">0</span>$</p>
-</div>
-<div class="product">
-    <h3>banane</h3>
-    <p>Prix : 7$</p>
-    <button class="btn add-to-cart" data-name="banane"data-price="5">Ajouter au panier</button>
-</div>
+<header>
+    <nav>
+        <div class="logo">
+            <span>Agro</span><span>Alimentaire</span>
+        </div>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="produit.html" class="active">Produits</a></li>
+            <li><a href="vente.html">Vente</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-<div id="cart">
-    <h3>🛒 Panier</h3>
-    <ul id="cart-items"></ul>
-    <p>Total : <span id="total">0</span>$</p>
-</div>
-<div class="product">
-    <h3>leg embale</h3>
-    <p>Prix : 1$</p>
-    <button class="btn add-to-cart" data-name="leg embale" data-price="5">Ajouter au panier</button>
-</div>
+<main class="main-content">
 
-<div id="cart">
-    <h3>🛒 Panier</h3>
-    <ul id="cart-items"></ul>
-    <p>Total : <span id="total">0</span>$</p>
-</div>
-
-<div class="product">
-    <h3>hogno10</h3>
-    <p>Prix :10 fruits 4=$</p>
-    <button class="btn add-to-cart" data-name="hogno10" data-price="5">Ajouter au panier</button>
-</div>
-
-<div id="cart">
-    <h3>🛒 Panier</h3>
-    <ul id="cart-items"></ul>
-    <p>Total : <span id="total">0</span>$</p>
-</div>
-	  <main class="main-content">
     <section class="products">
-      <h1>Nos Produits</h1>
-      <div class="product-list">
-        <div class="product">
-          <img src="images/leg embale.jpg">
-          <h2>mode c'est nous</h2>
-          <p>faite vos commande</p>
-        </div>
-        <div class="product">
-          <img src="images/mangue.jpg" >
+        <h1>Nos Produits</h1>
 
-          <h2>Faite vos commande</h2>
-        </div>
-        <div class="product">
-          <img src="images/mais mur.jpg" >
-          <h2>Faite vos commande</h2>
-        </div>
-        <div class="product">
-          <img src="images/mais.jpg">
-          <h2>Faite vos commande</h2>
-        </div>
-        <div class="product">
-          <img src="images/manioc.jpg">
-          <h2>Faite vos commandee</h2>
-        </div>
-        <div class="product">
-          <img src="images/songo.jpg ">
-          <h2>Faite vos commande</h2>
-        </div>
-        <div class="product">
-          <img src="images/hogno.jpg" >
-          <h2>Fait votre commande</h2>
-        </div>
-        <div class="product">
-          <img src="images/fruit1.jpg" >
-          <h2>Fait votre commande</h2>
-        </div>
-        <div class="product">
-          <img src="images/hogno10.jpg" >
-          <h2>Fait votre commande</h2>
-        </div>
-        <div class="product">
-          <img src="images/annana.jpg" >
-          <h2>Fait votre commande</h2>
-      </div>
-      <div class="product">
-          <img src="images/songo.jpg" >
-          <h2>Fait votre commande</h2>
-          <p>Contacter nous</p>
-        </div>
-        <div class="product">
-          <img src="images/avocat2.jpg" >
-          <h2>Fait votre commande</h2>
-        </div>
-         <div class="product">
-          <img src="images/choud.jpg" >
-          <h2>Fait votre commande</h2>
-        </div>
-         <div class="product">
-          <img src="images/choud1.jpg" >
-          <h2>Fait votre commande</h2>
-        </div>
-         <div class="product">
-          <img src="images/choud5.jpg" >
-          <h2>Fait votre commande</h2>
-        </div>
-         <div class="product">
-          <img src="images/huile.jpg" >
-          <h2>Fait votre commande</h2>
-        </div>
-         <div class="product">
-          <img src="images/huile b.jpg" >
-          <h2>Fait votre commande</h2>
-        </div>
-         <div class="product">
-          <img src="images/igname.jpg" >
-          <h2>Fait votre commande</h2>
-        </div>
-         <div class="product">
-          <img src="images/haricot.jpg" >
-          <h2>Fait votre commande</h2>
-        </div>
-         <div class="product">
-          <img src="images/patante1.jpg" >
-          <h2>Fait votre commande</h2>
+        <div class="product-list">
+
+            <div class="product">
+                <h3>Pommes de terre</h3>
+                <p>Prix : 5$</p>
+                <button class="btn add-to-cart" data-name="Pommes de terre" data-price="5">Ajouter au panier</button>
+            </div>
+
+            <div class="product">
+                <h3>Banane</h3>
+                <p>Prix : 7$</p>
+                <button class="btn add-to-cart" data-name="Banane" data-price="7">Ajouter au panier</button>
+            </div>
+
+            <div class="product">
+                <h3>Légumes emballés</h3>
+                <p>Prix : 1$</p>
+                <button class="btn add-to-cart" data-name="Légumes emballés" data-price="1">Ajouter au panier</button>
+            </div>
+
+            <div class="product">
+                <h3>Hogno (10 fruits)</h3>
+                <p>Prix : 4$</p>
+                <button class="btn add-to-cart" data-name="Hogno (10 fruits)" data-price="4">Ajouter au panier</button>
+            </div>
+
         </div>
     </section>
-     <footer>
-    <p>&copy; 2026 Agro-Alimentaire vous souhaite des bienvenue et des bon consommation de leur produit</p>
-  </footer>
-  <script src="java/script.js"></script>
 
-  </main>
+    <section class="gallery">
+        <h2>Galerie de nos produits</h2>
+        <div class="product-list">
+
+            <div class="product"><img src="images/mais.jpg" alt="Maïs"></div>
+            <div class="product"><img src="images/manioc.jpg" alt="Manioc"></div>
+            <div class="product"><img src="images/songo.jpg" alt="Songo"></div>
+            <div class="product"><img src="images/annana.jpg" alt="Ananas"></div>
+            <div class="product"><img src="images/avocat2.jpg" alt="Avocat"></div>
+            <div class="product"><img src="images/haricot.jpg" alt="Haricot"></div>
+
+        </div>
+    </section>
+
+    <!-- Panier UNIQUE -->
+    <section id="cart">
+        <h3>🛒 Panier</h3>
+        <ul id="cart-items"></ul>
+        <p>Total : <span id="total">0</span>$</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Agro-Alimentaire vous souhaite la bienvenue et une bonne consommation de ses produits.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
 </body>
+</html>

@@ -1,38 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Rach Mode</title>
-	<link rel="stylesheet" href="styles/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact - Agro-Alimentaire</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-	<header>
-		<nav>
-			<div class="logo"><span>Agro<span>Alimentaire</div>
-			<ul>
-				<li><a href="index.html">Accueil</a></li>
-				<li><a href="A propos.html">A propos</a></li>
-				<li><a href="Produit.html">Produit</a></li>
-				<li><a href="Vente.html">vente</a></li>
-				<li><a href="Contact.html" class="Contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	 <main class="main-content">
-   <section class="contact">
-    <h2>Contactez-Nous</h2>
+
+<header>
+    <nav>
+        <div class="logo">
+            <span>Agro</span><span>Alimentaire</span>
+        </div>
+        <ul>
+            <li><a href="Index.html">Accueil</a></li>
+            <li><a href="A propos.html">A propos</a></li>
+            <li><a href="Produit.html">Produits</a></li>
+            <li><a href="Vente.html">Vente</a></li>
+            <li><a href="Contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-content">
+
+<section class="contact">
+    <h2>Contactez-nous</h2>
+
     <div class="contact-container">
+
         <!-- Formulaire -->
         <div class="contact-form">
-            <form>
-                <input type="text" placeholder="Votre nom" required>
-                <input type="email" placeholder="Votre email" required>
-                <input type="text" placeholder="Sujet">
-                <textarea placeholder="Votre message" rows="5" required></textarea>
-                <button type="submit">Envoyer Message</button>
+            <form action="#" method="post">
+                <input type="text" name="nom" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <input type="text" name="sujet" placeholder="Sujet">
+                <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+                <button type="submit">Envoyer le message</button>
             </form>
         </div>
+
         <!-- Informations -->
         <div class="contact-info">
             <h3>Nos Informations</h3>
@@ -45,11 +54,13 @@
     </div>
 </section>
 
-  <footer>
-    <p>&copy; 2026 Dellice de stephie vous souhaite la Bienvenue.</p>
-  </footer>
+</main>
+
+<footer>
+    <p>&copy; 2026 Agro-Alimentaire vous souhaite la bienvenue et une bonne consommation de ses produits.</p>
+</footer>
+
+<script src="js/script.js"></script>
 
 </body>
-<script src="script.js"></script>
 </html>
-
